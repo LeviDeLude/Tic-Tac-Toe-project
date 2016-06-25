@@ -17,7 +17,7 @@ else {
 }
 
 var choice1 = prompt.get("Player 1, do you want to be X or O?")
-if (choice1 === "X" || choice === "x") {
+if (choice1.toLowerCase === "x") {
   console.log("Great! You will go first")
 }
 else {
