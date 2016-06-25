@@ -1,5 +1,2 @@
 # Tic-Tac-Toe
-Mini project README
-
-## header test
-this is a test header
+Mini project set to test my skills of coding!
