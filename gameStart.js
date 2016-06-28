@@ -8,15 +8,15 @@ else {
   console.log("Player 2, you get to start!");
 }
 
-var space1 = " ";
-var space2 = " ";
-var space3 = " ";
-var space4 = " ";
-var space5 = " ";
-var space6 = " ";
-var space7 = " ";
-var space8 = " ";
-var space9 = " ";
+var space1.toLowerCase = " ";
+var space2.toLowerCase = " ";
+var space3.toLowerCase = " ";
+var space4.toLowerCase = " ";
+var space5.toLowerCase = " ";
+var space6.toLowerCase = " ";
+var space7.toLowerCase = " ";
+var space8.toLowerCase = " ";
+var space9.toLowerCase = " ";
 
 //game board
 console.log("|"+space1"|"+space2"|"+space3"|");
