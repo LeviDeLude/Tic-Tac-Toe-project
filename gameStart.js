@@ -13,7 +13,7 @@ console.log("|"+gameBoard[0]"|"+gameBoard[1]"|"+gameBoard[2]"|");
 console.log("|"+gameBoard[3]"|"+gameBoard[4]"|"+gameBoard[5]"|");
 console.log("|"+gameBoard[6]"|"+gameBoard[7]"|"+gameBoard[8]"|");
 
-var gameBoard = [turn1,turn2,turn3,turn4,turn5,turn6,turn7,turn8,turn9]
+var gameBoard = [" "," "," "," "," "," "," "," "," "]
 
 /*  //This is the part I can't figure out?
 if(gameIsWonWithX === true) {
