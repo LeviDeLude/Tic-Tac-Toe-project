@@ -8,20 +8,12 @@ else {
   console.log("Player 2, you get to start!");
 }
 
-var space1.toLowerCase = " ";
-var space2.toLowerCase = " ";
-var space3.toLowerCase = " ";
-var space4.toLowerCase = " ";
-var space5.toLowerCase = " ";
-var space6.toLowerCase = " ";
-var space7.toLowerCase = " ";
-var space8.toLowerCase = " ";
-var space9.toLowerCase = " ";
-
 //game board
-console.log("|"+space1"|"+space2"|"+space3"|");
-console.log("|"+space4"|"+space5"|"+space6"|");
-console.log("|"+space7"|"+space8"|"+space9"|");
+console.log("|"+gameBoard[0]"|"+gameBoard[1]"|"+gameBoard[2]"|");
+console.log("|"+gameBoard[3]"|"+gameBoard[4]"|"+gameBoard[5]"|");
+console.log("|"+gameBoard[6]"|"+gameBoard[7]"|"+gameBoard[8]"|");
+
+var gameBoard = [turn1,turn2,turn3,turn4,turn5,turn6,turn7,turn8,turn9]
 
 /*  //This is the part I can't figure out?
 if(gameIsWonWithX === true) {
