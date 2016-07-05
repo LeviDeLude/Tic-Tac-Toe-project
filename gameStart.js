@@ -9,9 +9,9 @@ else {
 }
 
 //game board
-console.log("|"+gameBoard[0]+"|"+gameBoard[1]+"|"+gameBoard[2]+"|"/n
-           ("|"+gameBoard[3]+"|"+gameBoard[4]+"|"+gameBoard[5]+"|"/n
-           ("|"+gameBoard[6]+"|"+gameBoard[7]+"|"+gameBoard[8]+"|");
+var logGameBoard = ("|"+gameBoard[0]+"|"+gameBoard[1]+"|"+gameBoard[2]+"|"/n
+                   ("|"+gameBoard[3]+"|"+gameBoard[4]+"|"+gameBoard[5]+"|"/n
+                   ("|"+gameBoard[6]+"|"+gameBoard[7]+"|"+gameBoard[8]+"|");
 
 var gameBoard = [" "," "," "," "," "," "," "," "," "]
 
