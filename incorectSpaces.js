@@ -1,108 +1,110 @@
-var retry = prompt.get("Where would you rather go?");
+var prompt = require('readline-sync');
+
+var retry = prompt.question("Where would you rather go?");
 //Space 1
-if (space1 === "x") {
+if (gameBoard[0].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space1 = "x";
+  gameBoard[0]. = "x";
   console.log(retry);
 }
-else if (space1 === "o") {
+else if (gameBoard[0].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space1 = "o";
+  gameBoard[0] = "o";
   console.log(retry);
 }
 
 //Space 2
-if (space2 === "x") {
+if (gameBoard[1].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space2 = "x";
+  gameBoard[1] = "x";
   console.log(retry);
 }
-else if (space2 === "o") {
+else if (gameBoard[1].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space2 = "o";
+  gameBoard[1] = "o";
   console.log(retry);
 }
 
 //Space 3
-if (space3 === "x") {
+if (gameBoard[2].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space3 = "x";
+  gameBoard[2] = "x";
   console.log(retry);
 }
-else if (space3 === "o") {
+else if (gameBoard[2].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space3 = "o";
+  gameBoard[2] = "o";
   console.log(retry);
 }
 
 //Space 4
-if (space4 === "x") {
+if (gameBoard[3].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space4 = "x";
+  gameBoard[3] = "x";
   console.log(retry);
 }
-else if (space4 === "o") {
+else if (gameBoard[3].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space4 = "o";
+  gameBoard[3] = "o";
   console.log(retry);
 }
 
 //Space 5
-if (space5 === "x") {
+if (gameBoard[4].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space5 = "x";
+  gameBoard[4] = "x";
   console.log(retry);
 }
-else if (space5 === "o") {
+else if (gameBoard[4].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space5 = "o";
+  gameBoard[4] = "o";
   console.log(retry);
 }
 
 //Space 6
-if (space6 === "x") {
+if (gameBoard[5].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space6 = "x";
+  gameBoard[5] = "x";
   console.log(retry);
 }
-else if (space6 === "o") {
+else if (gameBoard[5].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space6 = "o";
+  gameBoard[5] = "o";
   console.log(retry);
 }
 
 //Space 7
-if (space7 === "x") {
+if (gameBoard[6].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space7 = "x";
+  gameBoard[6] = "x";
   console.log(retry);
 }
-else if (space7 === "o") {
+else if (gameBoard[6].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space7 = "o";
+  gameBoard[6] = "o";
   console.log(retry);
 }
 
 //Space 8
-if (space8 === "x") {
+if (gameBoard[7].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space8 = "x";
+  gameBoard[7] = "x";
   console.log(retry);
 }
-else if (space8 === "o") {
+else if (gameBoard[7].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space8 = "o";
+  gameBoard[7] = "o";
   console.log(retry);
 }
 
 //Space 9
-if (space9 === "x") {
+if (gameBoard[8].toLowerCase === "x") {
   console.log("That space has already been used, try a diffent one!");
-  space9 = "x";
+  gameBoard[8] = "x";
   console.log(retry);
 }
-else if (space9 === "o") {
+else if (gameBoard[8].toLowerCase === "o") {
   console.log("That space has already been used, try a diffent one!");
-  space9 = "o";
+  gameBoard[8] = "o";
   console.log(retry);
 }
