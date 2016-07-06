@@ -15,17 +15,8 @@ var logGameBoard3 = ("|"+gameBoard[6]+"|"+gameBoard[7]+"|"+gameBoard[8]+"|");
 
 var gameBoard = [" "," "," "," "," "," "," "," "," "]
 
-/*  //This is the part I can't figure out?
-if(gameIsWonWithX === true) {
-  stop game
-  console.log("Great job Player 1!")
+while (!isGameOver()) {
+  //run turn code
+  //collect user input
+  //check game state
 }
-else if(gameIsWonWithO === true){
-  stop game
-  console.log("Great job Player 2!")
-}
-else {
-  stop game
-  console.log("It was a tie!")
-}
-*/
