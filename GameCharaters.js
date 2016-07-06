@@ -42,3 +42,15 @@ var turn9 = prompt.question("Player 1, which space would you like to go in?")
 console.log(logGameBoard1);
 console.log(logGameBoard2);
 console.log(logGameBoard3);
+
+if (isGameOver === false) {
+  console.log("It was a tie!");
+  var playAgainTie = prompt.question("Do you want to play again?")
+  if (playAgainTie.toLowerCase === "yes") {
+    //run prompts.js
+    //reset code
+  }
+  else {
+    //end game
+  }
+}
