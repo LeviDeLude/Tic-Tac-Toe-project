@@ -7,20 +7,38 @@ console.log("|7|8|9|");
 console.log("Remember this order because this will be how the game is played.");
 
 var turn1 = prompt.question("Player 1, which space would you like to go in first?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn2 = prompt.question("Player 2, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn3 = prompt.question("Player 1, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn4 = prompt.question("Player 2, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn5 = prompt.question("Player 1, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn6 = prompt.question("Player 2, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn7 = prompt.question("Player 1, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn8 = prompt.question("Player 2, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
 var turn9 = prompt.question("Player 1, which space would you like to go in?")
-console.log(logGameBoard);
+console.log(logGameBoard1);
+console.log(logGameBoard2);
+console.log(logGameBoard3);
